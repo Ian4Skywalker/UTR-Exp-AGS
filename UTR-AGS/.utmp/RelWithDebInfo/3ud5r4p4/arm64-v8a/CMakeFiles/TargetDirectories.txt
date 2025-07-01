@@ -1,0 +1,8 @@
+C:/git/UTR-Exp-AGS/UTR-AGS/.utmp/RelWithDebInfo/3ud5r4p4/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/git/UTR-Exp-AGS/UTR-AGS/.utmp/RelWithDebInfo/3ud5r4p4/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/git/UTR-Exp-AGS/UTR-AGS/.utmp/RelWithDebInfo/3ud5r4p4/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/git/UTR-Exp-AGS/UTR-AGS/.utmp/RelWithDebInfo/3ud5r4p4/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/git/UTR-Exp-AGS/UTR-AGS/.utmp/RelWithDebInfo/3ud5r4p4/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+C:/git/UTR-Exp-AGS/UTR-AGS/.utmp/RelWithDebInfo/3ud5r4p4/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/git/UTR-Exp-AGS/UTR-AGS/.utmp/RelWithDebInfo/3ud5r4p4/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/git/UTR-Exp-AGS/UTR-AGS/.utmp/RelWithDebInfo/3ud5r4p4/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

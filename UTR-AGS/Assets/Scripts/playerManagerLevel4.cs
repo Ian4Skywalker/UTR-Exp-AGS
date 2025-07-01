@@ -22,7 +22,8 @@ public class playerManagerLevel4 : MonoBehaviour
         //Get objects
         cameraView = GameObject.Find("CameraView").GetComponent<cameraViewManager>();
         list= GameObject.Find("GameManager").GetComponent<listManager>();
-        soundPlayer=GetComponent<AudioSource>();
+        soundPlayer = GetComponentInChildren<AudioSource>();
+        
         
     }
 

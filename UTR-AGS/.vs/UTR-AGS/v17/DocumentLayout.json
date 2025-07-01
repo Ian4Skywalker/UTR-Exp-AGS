@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|c:\\git\\utr-exp-ags\\utr-ags\\assets\\scripts\\playermanagerlevel4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermanagerlevel4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|c:\\git\\utr-exp-ags\\utr-ags\\assets\\scripts\\cameraviewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraviewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cameraViewManager.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\cameraViewManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\cameraViewManager.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\cameraViewManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\cameraViewManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:30:47.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playerManagerLevel4.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\playerManagerLevel4.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\playerManagerLevel4.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\playerManagerLevel4.cs",
+              "RelativeToolTip": "Assets\\Scripts\\playerManagerLevel4.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwCcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:29:13.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OVRConfigurationTaskUpdaterSummary.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:02:31.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
