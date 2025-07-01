@@ -95,16 +95,17 @@ public class Atencion : MonoBehaviour
             {
                 indicedos++;
             }
-            if (indiceActual == 5)
-            {
-                audioSource.Play();
-                mensaje[0].SetActive(true);
-                Destroy(this.gameObject); // Destruir el objeto al completar la tarea
-            }
+            
             // Resetear objeto para "soltarlo" y hacer respawn
             gameObject.SetActive(false);
             transform.position = initialPosition;
             gameObject.SetActive(true);
+            if (indiceActual == 5)
+            {
+                audioSource.Play();
+                mensaje[0].SetActive(true);
+                this.gameObject.SetActive(false); // Destruir el objeto al completar la tarea
+            }
         }
     }
 
