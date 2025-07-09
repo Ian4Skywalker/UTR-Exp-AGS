@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6616625662400662885}
   - component: {fileID: 4267162096643585325}
   - component: {fileID: 5428721286964421378}
-  - component: {fileID: 1730149941979289180}
   m_Layer: 8
   m_Name: Tickets
   m_TagString: ticket
@@ -161,20 +160,6 @@ MonoBehaviour:
   _rigidbody: {fileID: 4267162096643585325}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
-  _isKinematicLocked: 1
---- !u!114 &1730149941979289180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172329704875171899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0d57c7fd1d08e54a81a022e75bef79f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ticketUI: {fileID: 0}
 --- !u!1 &7116783745470691758
 GameObject:
   m_ObjectHideFlags: 0
