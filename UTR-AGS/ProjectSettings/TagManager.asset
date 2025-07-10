@@ -6,6 +6,18 @@ TagManager:
   tags:
   - photoModel
   - mainPlayer
+  - piece
+  - spawnPosition
+  - QDSUITextSecondaryColor
+  - QDSUIIcon
+  - QDSUIToggleButton
+  - QDSUISecondaryButton
+  - QDSUIBorderlessButton
+  - QDSUIToggleBorderlessButton
+  - QDSUITooltip
+  - QDSUISharedThemeColor
+  - QDSUIToggleSwitch
+  - QDSUIAccentColor
   layers:
   - Default
   - TransparentFX
@@ -13,8 +25,8 @@ TagManager:
   - floor
   - Water
   - UI
-  - 
-  - 
+  - player
+  - nonInteractableObject
   - 
   - 
   - 
