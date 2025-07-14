@@ -412,7 +412,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 327c492737762204195ea967e4f409e4, type: 2}
+  - {fileID: 2100000, guid: a41e93dcb7c12ae408c4d7484ddbcc2f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -713,7 +713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557883860945229395, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 557883860945229395, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
       propertyPath: m_LocalPosition.z
@@ -747,6 +747,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1227724870704530678, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923351271559552666, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3202946116139456062, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
       propertyPath: m_ClearFlags
       value: 2
@@ -766,6 +774,10 @@ PrefabInstance:
     - target: {fileID: 3202946116139456062, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
       propertyPath: m_BackGroundColor.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3298508159122605434, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3380198125892068854, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
       propertyPath: m_Enabled
@@ -805,7 +817,7 @@ PrefabInstance:
       objectReference: {fileID: 1134411406}
     - target: {fileID: 9002079179763999098, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9002079180836421247, guid: 93b2d40bf3268bb489a8c39a984ace93, type: 3}
       propertyPath: _hmd
@@ -1204,7 +1216,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 0.2, z: 20}
+  m_LocalScale: {x: 30, y: 0.2, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

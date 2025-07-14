@@ -7,14 +7,26 @@ TagManager:
   - ticket
   - ColTicket
   - mainPlayer
+  - QDSUITextSecondaryColor
+  - QDSUIIcon
+  - QDSUIToggleButton
+  - QDSUISecondaryButton
+  - QDSUIBorderlessButton
+  - QDSUIToggleBorderlessButton
+  - QDSUITooltip
+  - QDSUISharedThemeColor
+  - QDSUIToggleSwitch
+  - QDSUIAccentColor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
   - Overlay UI
+  - nonInteractable
+  - Floor
   - 
   - 
   - 
@@ -37,9 +49,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - OVROverlayCanvas Rendering
   m_SortingLayers:
   - name: Default
     uniqueID: 0
