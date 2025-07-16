@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    implementation fileTree(dir: 'bin', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+android {
+    namespace "com.UnityTechnologies.XR.Manifest"
+    compileSdk 32
+    buildToolsVersion = "34.0.0"
+
+    defaultConfig {
+        minSdk 32
+        targetSdk 32
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            //java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}

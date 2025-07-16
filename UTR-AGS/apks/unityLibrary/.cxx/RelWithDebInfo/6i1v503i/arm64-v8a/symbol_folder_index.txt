@@ -1,0 +1,1 @@
+C:\Users\Lurch\Documents\GitHub\UTR-Exp-AGS\UTR-AGS\apks\unityLibrary\build\intermediates\cxx\RelWithDebInfo\6i1v503i\obj\arm64-v8a
