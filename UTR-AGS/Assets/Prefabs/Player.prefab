@@ -406,7 +406,6 @@ GameObject:
   m_Component:
   - component: {fileID: 557883860945229395}
   - component: {fileID: 3298508159122605434}
-  - component: {fileID: 4535671725785614884}
   - component: {fileID: 5323207056841119753}
   m_Layer: 0
   m_Name: Player
@@ -458,29 +457,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!136 &4535671725785614884
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6468078062967707341}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5947354
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &5323207056841119753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -707,7 +683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: e47682b9-c270-40b1-b16d-90b627a5ce1b
-  instanceId: 8223be9d-de6d-44af-a296-7fed663e6fc6
+  instanceId: 79645aae-b29b-4698-b232-4a7bcbc69348
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -1075,7 +1051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 81f55626-5fad-45e9-a1df-184f330da7ba
-  instanceId: 18515454-ee22-4414-8e43-30d36f8c1232
+  instanceId: f8de44d7-77f7-4992-86c8-32cfc1d7e99d
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 2063f481-1b63-4eda-9ee8-a00df98536bc
