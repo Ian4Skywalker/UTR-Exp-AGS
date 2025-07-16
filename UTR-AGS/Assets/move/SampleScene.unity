@@ -426,6 +426,7 @@ GameObject:
   - component: {fileID: 218908943}
   - component: {fileID: 218908948}
   - component: {fileID: 218908947}
+  - component: {fileID: 218908949}
   m_Layer: 0
   m_Name: Piece 3
   m_TagString: Untagged
@@ -448,7 +449,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -567,11 +568,24 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &218908949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218908942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8581aa029e0b9254b8a2960a50c763fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partes: {fileID: 416094741}
 --- !u!1 &301621711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,9 +1623,10 @@ GameObject:
   - component: {fileID: 1010041677}
   - component: {fileID: 1010041682}
   - component: {fileID: 1010041681}
+  - component: {fileID: 1010041683}
   m_Layer: 0
   m_Name: Piece 2
-  m_TagString: Untagged
+  m_TagString: Object2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1631,7 +1646,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1750,11 +1765,24 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1010041683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010041676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8581aa029e0b9254b8a2960a50c763fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partes: {fileID: 1398557345}
 --- !u!1 &1025715350
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,6 +3007,7 @@ GameObject:
   - component: {fileID: 2111961366}
   - component: {fileID: 2111961371}
   - component: {fileID: 2111961370}
+  - component: {fileID: 2111961372}
   m_Layer: 0
   m_Name: Piece 4
   m_TagString: Untagged
@@ -3001,7 +3030,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3120,11 +3149,24 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2111961372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111961365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8581aa029e0b9254b8a2960a50c763fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partes: {fileID: 712736318}
 --- !u!1 &2127828500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4307980110223341893, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
