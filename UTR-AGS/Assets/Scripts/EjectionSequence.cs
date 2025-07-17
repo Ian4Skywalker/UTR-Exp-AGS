@@ -42,6 +42,7 @@ public class EjectionSequence : MonoBehaviour // Define a component that manages
     public float moveSpeed = 4f;           // Speed of movement toward the exit point in phase 2
     public float delayBeforeEject = 0.5f;  // Duration of phase 1 before transitioning to phase 2
 
+    private float currentRotation = 0f;
     private bool isEjecting = false;       // Flag to track if the ejection has started
     private float ejectionTimer = 0f;      // Timer to manage phase transitions
 
@@ -67,8 +68,17 @@ public class EjectionSequence : MonoBehaviour // Define a component that manages
                 transform.position += Vector3.up * ejectionForce * Time.deltaTime;
             }
 
-            // Apply continuous rotation around the Z-axis
-            transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);
+            float rotationStep = rotationSpeed * Time.deltaTime;
+            if (currentRotation + rotationStep < 90f)
+            {
+                transform.Rotate(Vector3.forward, rotationStep);
+                currentRotation += rotationStep;
+            }
+            else
+            {
+                transform.Rotate(Vector3.forward, 90f - currentRotation);
+                currentRotation = 90f;
+            }
         }
         else
         {
