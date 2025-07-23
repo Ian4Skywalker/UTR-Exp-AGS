@@ -4330,9 +4330,9 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 0
   m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Interpolate: 1
+  m_Constraints: 62
+  m_CollisionDetection: 3
 --- !u!64 &1278826872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4391,9 +4391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yMin: -0.5
   yMax: 0
-  anguloMinimoZ: 0
-  anguloMaximoZ: 180
-  tolerancia: 5
+  maxVueltas: 2
+  toleranciaAnguloFinal: 5
 --- !u!1 &1354174633
 GameObject:
   m_ObjectHideFlags: 0

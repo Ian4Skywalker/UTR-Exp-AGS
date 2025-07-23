@@ -2,88 +2,102 @@ using UnityEngine;
 
 public class TimonControTotal : MonoBehaviour
 {
-    [Header("Movimiento manual en Y")]
+    [Header("Movimiento vertical manual")]
     public float yMin = -0.5f;
     public float yMax = 0f;
 
-    [Header("Rotación manual limitada")]
-    public float anguloMinimoZ = 0f;
-    public float anguloMaximoZ = 180f;
-    public float tolerancia = 5f;
+    [Header("Giro rotatorio limitado")]
+    public float maxVueltas = 2f;
+    public float toleranciaAnguloFinal = 5f;
 
     private Rigidbody rb;
     private float ultimaY;
     private bool bajadoCompleto = false;
     private bool giroCompleto = false;
+    private float rotacionAcumuladaZ = 0f;
+    private Vector3 ultimaRotacion;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        ultimaY = transform.localPosition.y;
+        ultimaY = yMax;
+        ultimaRotacion = transform.localEulerAngles;
+
+        transform.localPosition = new Vector3(0f, yMax, 0f);
 
         if (rb == null)
         {
-            Debug.LogWarning("❌ El timón necesita un Rigidbody para movimiento físico.");
+            Debug.LogWarning("❌ El timón necesita un Rigidbody.");
+            return;
         }
-        else
-        {
-            rb.isKinematic = true;      // ✅ Evita simulación física al inicio
-            rb.useGravity = false;
-        }
+
+        rb.isKinematic = false;
+        rb.useGravity = false;
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+
+        BloquearTimón();
     }
 
     void FixedUpdate()
     {
         if (rb == null) return;
 
-        // 🧯 Detener movimiento físico no deseado
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
         Vector3 pos = transform.localPosition;
-
-        // 🔽 Solo permitir movimiento descendente en Y
         pos.y = Mathf.Clamp(pos.y, yMin, yMax);
-        if (pos.y > ultimaY)
-        {
-            pos.y = ultimaY;
-        }
-
-        // 🧭 Bloquear movimiento en X y Z
         pos.x = 0f;
         pos.z = 0f;
         transform.localPosition = pos;
         ultimaY = pos.y;
 
-        // ✅ Detectar si llegó al fondo
         if (!bajadoCompleto && Mathf.Approximately(pos.y, yMin))
         {
             bajadoCompleto = true;
-            Debug.Log("🔓 El timón está completamente bajado. El giro está habilitado.");
+            Debug.Log("🔓 Timón bajado. Giro habilitado.");
         }
 
-        // 🔒 Bloquear rotación fuera de rango Z
-        Vector3 rot = transform.localEulerAngles;
-        float rotZ = rot.z;
-        rotZ = (rotZ > 180) ? rotZ - 360 : rotZ; // convertir a -180 a 180
-        float rotZLimitado = Mathf.Clamp(rotZ, anguloMinimoZ, anguloMaximoZ);
-        transform.localEulerAngles = new Vector3(rot.x, rot.y, rotZLimitado);
-
-        // 🎯 Detectar giro completo
-        if (bajadoCompleto && !giroCompleto && Mathf.Abs(rotZLimitado - anguloMaximoZ) < tolerancia)
+        if (bajadoCompleto && !giroCompleto)
         {
-            giroCompleto = true;
-            AccionFinal();
+            Vector3 rotActual = transform.localEulerAngles;
+            float deltaZ = Mathf.DeltaAngle(ultimaRotacion.z, rotActual.z);
+
+            if (deltaZ > 0)
+            {
+                rotacionAcumuladaZ += deltaZ;
+                Debug.Log($"↪ Vueltas acumuladas: {rotacionAcumuladaZ / 360f:F2}");
+            }
+
+            ultimaRotacion = rotActual;
+
+            if (rotacionAcumuladaZ >= 360f * maxVueltas - toleranciaAnguloFinal)
+            {
+                giroCompleto = true;
+                BloquearGiro();  // ✅ Bloqueo final
+                AccionFinal();
+            }
         }
+    }
+
+    void BloquearTimón()
+    {
+        rb.constraints = RigidbodyConstraints.FreezePositionX |
+                         RigidbodyConstraints.FreezePositionY |
+                         RigidbodyConstraints.FreezePositionZ |
+                         RigidbodyConstraints.FreezeRotationX |
+                         RigidbodyConstraints.FreezeRotationY;
+    }
+
+    void BloquearGiro()
+    {
+        rb.constraints |= RigidbodyConstraints.FreezeRotationZ;
     }
 
     void AccionFinal()
     {
-        // 🔓 Activar física real solo después del giro completo
-        rb.isKinematic = false;
-        rb.useGravity = true;
-
-        Debug.Log("✅ ¡Acción completada! El timón fue bajado y girado correctamente.");
-        // Aquí puedes activar puertas, sonidos, animaciones, etc.
+        Debug.Log("✅ ¡Secuencia completada! El timón fue bajado y girado correctamente.");
+        // Aquí puedes agregar efectos visuales, sonido, animaciones, etc.
     }
 }
