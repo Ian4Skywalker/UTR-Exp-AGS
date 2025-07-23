@@ -21,16 +21,24 @@ public class TimonControTotal : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         ultimaY = transform.localPosition.y;
 
-        // Recomendación: Use Gravity = false, Is Kinematic = false en Rigidbody
         if (rb == null)
         {
             Debug.LogWarning("❌ El timón necesita un Rigidbody para movimiento físico.");
+        }
+        else
+        {
+            rb.isKinematic = true;      // ✅ Evita simulación física al inicio
+            rb.useGravity = false;
         }
     }
 
     void FixedUpdate()
     {
         if (rb == null) return;
+
+        // 🧯 Detener movimiento físico no deseado
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
 
         Vector3 pos = transform.localPosition;
 
@@ -39,7 +47,6 @@ public class TimonControTotal : MonoBehaviour
         if (pos.y > ultimaY)
         {
             pos.y = ultimaY;
-            rb.linearVelocity = Vector3.zero;
         }
 
         // 🧭 Bloquear movimiento en X y Z
@@ -68,13 +75,14 @@ public class TimonControTotal : MonoBehaviour
             giroCompleto = true;
             AccionFinal();
         }
-
-        // 🧼 Bloquear rotación física adicional
-        rb.angularVelocity = Vector3.zero;
     }
 
     void AccionFinal()
     {
+        // 🔓 Activar física real solo después del giro completo
+        rb.isKinematic = false;
+        rb.useGravity = true;
+
         Debug.Log("✅ ¡Acción completada! El timón fue bajado y girado correctamente.");
         // Aquí puedes activar puertas, sonidos, animaciones, etc.
     }
