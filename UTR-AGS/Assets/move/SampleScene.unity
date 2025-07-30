@@ -119,6 +119,135 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &20033374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 20033375}
+  - component: {fileID: 20033376}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &20033375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20033374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 221293912}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &20033376
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20033374}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 010dd5e69c8f449498b63a40b491da22, type: 2}
+  m_audioClip: {fileID: 8300000, guid: ab7bf866bf2e226408ed599094d67f2a, type: 3}
+  m_Resource: {fileID: 8300000, guid: ab7bf866bf2e226408ed599094d67f2a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &24231970
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,6 +390,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 49057518}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &49057520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -576,6 +706,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 211483708}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!54 &211483708
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -738,6 +869,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 218908948}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!54 &218908948
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -913,6 +1045,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 221293915}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!1 &240544646 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2581465365522533354, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
@@ -972,6 +1105,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 240544650}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &240544652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1799,6 +1933,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 416094746}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!1 &426707921
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,6 +2295,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 607982271}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &607982273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2481,6 +2617,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 712736323}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!1 &729000152
 GameObject:
   m_ObjectHideFlags: 0
@@ -3458,6 +3595,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1002893404}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &1002893406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3636,6 +3774,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1010041682}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!54 &1010041682
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3916,7 +4055,7 @@ Transform:
   m_GameObject: {fileID: 1018474297}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.9, y: -0.05, z: 0}
   m_LocalScale: {x: 10, y: 0.1, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4043,6 +4182,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1110573493}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &1110573495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4590,7 +4730,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 1
   m_Constraints: 106
   m_CollisionDetection: 3
@@ -4616,6 +4756,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1278826871}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &1278826878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4990,6 +5131,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1380936050}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &1380936052
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5224,6 +5366,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1398557350}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!1 &1427484441 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7169951993573109297, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
@@ -5428,6 +5571,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1472278137}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &1472278139
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5765,6 +5909,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1678066954}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &1678066956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6088,6 +6233,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1737765814}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!54 &1737765814
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6607,6 +6753,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1965405843}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!65 &1965405845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6758,6 +6905,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a1e04bccc50f7294083e18840ae8daaf, type: 2}
+    - target: {fileID: -2035102023206820807, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -880695743319161338, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -652185331068614927, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -6774,6 +6929,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 980065554908060549, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3992479166823903244, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -6781,6 +6940,10 @@ PrefabInstance:
     - target: {fileID: 5584810092434961469, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800079412928245639, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6794,6 +6957,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6213950937527856793, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1251207872}
+    - targetCorrespondingSourceObject: {fileID: 6213950937527856793, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 20033375}
     - targetCorrespondingSourceObject: {fileID: 980065554908060549, guid: 998a3c0f82ff8d44fafed50fcaa7600f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1520623950}
@@ -7271,6 +7437,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 2111961371}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _isKinematicLocked: 0
 --- !u!54 &2111961371
 Rigidbody:
   m_ObjectHideFlags: 0
