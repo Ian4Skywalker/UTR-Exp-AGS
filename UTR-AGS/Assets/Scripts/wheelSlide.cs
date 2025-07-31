@@ -9,23 +9,25 @@ public class wheelSlide : MonoBehaviour
     Transform wheelTransform;
     public float slideTop, slideBottom,threshold;
     public bool isSlide, isGrabbing;
-
+    public Vector3 test;
     public GameObject[] gameController;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
+        
+    }
+    void Start()
+    {
+        test = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
         wheelRigidbody = GetComponent<Rigidbody>();
         wheelCollider = GetComponent<Collider>();
         wheelTransform = GetComponent<Transform>();
         gameController = GameObject.FindGameObjectsWithTag("GameController");
     }
-    void Start()
-    {
-
-    }
     void FixedUpdate()
     {
-        Debug.DrawLine(gameController[0].transform.position, gameController[1].transform.position, Color.red);
+       
+        Debug.DrawRay(new Vector3(this.transform.position.x,this.transform.position.y,this.transform.position.z+0.6f), gameController[0].transform.position, Color.blue);
     }
     // Update is called once per frame
     void Update()
@@ -86,16 +88,15 @@ public class wheelSlide : MonoBehaviour
         {
             if (other.gameObject.CompareTag("GameController"))
             {
-                if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger) && OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
+                if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
                 {
-                    ray = new Ray(this.transform.position, other.gameObject.transform.position);
+                    ray = new Ray(new Vector3(this.transform.position.x,this.transform.position.y,this.transform.position.z+0.6f), other.transform.position);
+                    Debug.DrawRay(ray.origin, ray.direction, Color.green,5f);
                 }
-                if (OVRInput.Get(OVRInput.RawButton.RIndexTrigger) || OVRInput.Get(OVRInput.RawButton.LIndexTrigger))
+                if (OVRInput.Get(OVRInput.RawButton.RIndexTrigger))
                 {
-                    Physics.Raycast(ray);
-                    Debug.DrawRay(ray.origin, ray.direction, Color.green);
-                    Physics.Raycast(this.transform.position, other.gameObject.transform.position);
-                    Debug.DrawRay(this.transform.position, other.gameObject.transform.position, Color.blue);
+                    //Physics.Raycast(ray);  
+                    
                 }
                 else
                 {

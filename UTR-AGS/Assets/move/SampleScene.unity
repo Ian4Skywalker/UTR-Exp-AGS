@@ -5479,7 +5479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slideTop: 1.7
   slideBottom: 1.2
-  threshold: 0
+  threshold: 1.2
   isSlide: 0
   isGrabbing: 0
   gameController: []
