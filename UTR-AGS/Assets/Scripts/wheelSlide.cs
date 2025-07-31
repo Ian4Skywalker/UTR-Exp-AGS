@@ -52,33 +52,57 @@ public class wheelSlide : MonoBehaviour
 
     }
     bool oneEntered;
+    Ray ray;
     void OnTriggerStay(Collider other)
     {
         if (!isSlide)
         {
-           
 
-                if (other.gameObject.CompareTag("GameController"))
+
+            if (other.gameObject.CompareTag("GameController"))
+            {
+
+                if (OVRInput.Get(OVRInput.RawButton.RIndexTrigger) || OVRInput.Get(OVRInput.RawButton.LIndexTrigger))
                 {
-                    
-                    if (OVRInput.Get(OVRInput.RawButton.RIndexTrigger) || OVRInput.Get(OVRInput.RawButton.LIndexTrigger))
-                    {
-                        
-                        isGrabbing = true;
-                        this.transform.position = new Vector3(this.transform.position.x, other.gameObject.transform.position.y, this.transform.position.z);
-                        if (this.transform.position.y < threshold)
-                        {
-                            isSlide = true;
-                        }
 
-                    }
-                    else
+                    isGrabbing = true;
+                    this.transform.position = new Vector3(this.transform.position.x, other.gameObject.transform.position.y, this.transform.position.z);
+                    if (this.transform.position.y < threshold)
                     {
-                        isGrabbing = false;
+                        isSlide = true;
                     }
-
 
                 }
+                else
+                {
+                    isGrabbing = false;
+                }
+
+
+            }
+
+        }
+        else
+        {
+            if (other.gameObject.CompareTag("GameController"))
+            {
+                if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger) && OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
+                {
+                    ray = new Ray(this.transform.position, other.gameObject.transform.position);
+                }
+                if (OVRInput.Get(OVRInput.RawButton.RIndexTrigger) || OVRInput.Get(OVRInput.RawButton.LIndexTrigger))
+                {
+                    Physics.Raycast(ray);
+                    Debug.DrawRay(ray.origin, ray.direction, Color.green);
+                    Physics.Raycast(this.transform.position, other.gameObject.transform.position);
+                    Debug.DrawRay(this.transform.position, other.gameObject.transform.position, Color.blue);
+                }
+                else
+                {
+                    isGrabbing = false;
+                }
+
+            }
             
         }
     }
