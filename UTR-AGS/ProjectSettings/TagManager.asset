@@ -9,6 +9,7 @@ TagManager:
   - Object3
   - Object4
   - Object
+  - mainPlayer
   layers:
   - Default
   - TransparentFX
