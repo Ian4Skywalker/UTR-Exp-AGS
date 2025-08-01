@@ -936,6 +936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider_get_center_Injected_m8DB81B1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider_set_center_Injected_mF45B8F9D3C124C4AD7BA370715F542B6AA24BF08 (intptr_t ___0__unity_self, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider_get_size_Injected_m7DCE0DAAB04E18055D954D944A07B16B840C88B6 (intptr_t ___0__unity_self, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider_set_size_Injected_m7F9B55933C41D7733F88A47AD0D728A6ED98DCCE (intptr_t ___0__unity_self, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider__ctor_m8975C6CCFC0E5740C523DB4A52ACC7F4A021F8FA (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, const RuntimeMethod* method) ;
 inline intptr_t MarshalledUnityObject_MarshalNotNull_TisCapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808_m8B798A5C6F14F1B3CC054C7D984CE328777AE9D3_inline (CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* ___0_obj, const RuntimeMethod* method)
 {
 	return ((  intptr_t (*) (CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808*, const RuntimeMethod*))MarshalledUnityObject_MarshalNotNull_TisRuntimeObject_mEB1AA6B672D00242BB9DCE007056EC0E9C8DB075_gshared_inline)(___0_obj, method);
@@ -947,7 +948,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_set_radius_Injected_m3BB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CapsuleCollider_get_height_Injected_m31ED5345D908D193A2AB0947EBC50E901454FEF4 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_set_height_Injected_m600D99DBF9E6314735E7FB060F344774AD554CD0 (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_set_direction_Injected_m1291147A74CA091F65DC73D37E1F1813CA55DDBF (intptr_t ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider__ctor_m8975C6CCFC0E5740C523DB4A52ACC7F4A021F8FA (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, const RuntimeMethod* method) ;
 inline intptr_t MarshalledUnityObject_MarshalNotNull_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m6EE03A429E228BEF5A30CE6A9031EDEBD0DEF601_inline (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___0_obj, const RuntimeMethod* method)
 {
 	return ((  intptr_t (*) (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A*, const RuntimeMethod*))MarshalledUnityObject_MarshalNotNull_TisRuntimeObject_mEB1AA6B672D00242BB9DCE007056EC0E9C8DB075_gshared_inline)(___0_obj, method);
@@ -1717,6 +1717,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider_set_size_m8374267FDE5DD62897
 IL_000f:
 	{
 		BoxCollider_set_size_Injected_m7F9B55933C41D7733F88A47AD0D728A6ED98DCCE(G_B2_0, (&___0_value), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider__ctor_m7E069AACEC2B76129335D222FC8B8A63FD50656F (BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* __this, const RuntimeMethod* method) 
+{
+	{
+		Collider__ctor_m8975C6CCFC0E5740C523DB4A52ACC7F4A021F8FA(__this, NULL);
 		return;
 	}
 }
