@@ -22,6 +22,7 @@ public class SonidoRecoger : MonoBehaviour
         if (audioSource == null)
         {
             audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.playOnAwake = false;
         }
     }
 
@@ -29,7 +30,7 @@ public class SonidoRecoger : MonoBehaviour
     void Update()
     {
 
-        if (grabbable._isKinematicLocked && !soundPlayed)
+        if (grabbable._isKinematicLocked==true && !soundPlayed)
         {
 
             ReproducirSonido();
