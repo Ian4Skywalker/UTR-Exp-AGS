@@ -11,13 +11,14 @@ public class Atencion : MonoBehaviour
 
     private Vector3 initialPosition; 
     private Vector3 initialRotation;
-    private Vector3 aumento_izquierda = new Vector3(-0.4f, 0, 0);
+    public Vector3 aumento_izquierda = new Vector3(0.5f, 0, 0);
     private int indiceActual = 0;
     private int indicedos = 0;
     private Rigidbody rb;
     private int activePlates = 5;
     public GameObject extra;
-
+    public int addition;
+    public int fin;
 
     [Tooltip("Altura mínima antes de hacer respawn")]
     public float fallThreshold = -10f;
@@ -48,7 +49,7 @@ public class Atencion : MonoBehaviour
     {
         
 
-        if (other.CompareTag("mesa" + (indiceActual + 1)))
+        if (other.CompareTag("mesa" + (indiceActual + 1 + addition)))
         {
             if (mesas[indiceActual] != null)
             {
@@ -100,7 +101,7 @@ public class Atencion : MonoBehaviour
             gameObject.SetActive(false);
             transform.position = initialPosition;
             gameObject.SetActive(true);
-            if (indiceActual == 5)
+            if (indiceActual == fin)
             {
                 audioSource.Play();
                 mensaje[0].SetActive(true);
