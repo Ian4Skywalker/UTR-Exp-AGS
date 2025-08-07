@@ -53,15 +53,15 @@ public class Atencion : MonoBehaviour
         {
             if (mesas[indiceActual] != null)
             {
-                Renderer renderer = this.GetComponent<Renderer>();
-                Renderer renderer2 = this.GetComponent<Renderer>();
+               // Renderer renderer = this.GetComponent<Renderer>();
+                //Renderer renderer2 = this.GetComponent<Renderer>();
                 
-                if (renderer != null)
+                //if (renderer != null)
                 {
                     if (indicedos < cubierta.Length - 1)
                     {
-                        renderer2 = cubierta[indicedos].GetComponent<Renderer>();
-                        renderer.material = renderer2.material;
+                        //renderer2 = cubierta[indicedos].GetComponent<Renderer>();
+                       // renderer.material = renderer2.material;
                     }
                     
                 }
