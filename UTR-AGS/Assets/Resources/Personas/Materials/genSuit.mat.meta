@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4ef944738df6cd34285471b45a6884a5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16772
+  packageName: Suit Character Pack - Generic
+  packageVersion: 1.0
+  assetPath: Assets/genSuit/Materials/genSuit.mat
+  uploadId: 5395
