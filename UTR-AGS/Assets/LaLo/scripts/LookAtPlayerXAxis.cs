@@ -1,33 +1,68 @@
 using UnityEngine;
 
-public class LookAtTargetXAxis : MonoBehaviour
+public class FollowPlayer : MonoBehaviour
 {
-    [Tooltip("Objeto al que este objeto rotará su eje X")]
-    public Transform objetivo;
+    [Header("References")]
+    public Transform personaTransform;
+    public Transform headTransform;
+    public Transform playerCamera;
 
-    [Tooltip("Frente personalizado del objeto. Usa esto si el modelo no mira hacia adelante por defecto.")]
-    public Vector3 frentePersonalizado = Vector3.up;
+    [Header("Head Tracking Settings")]
+    public float rotationSpeed = 5f;
+    public float maxHeadTurnAngle = 90f;
 
-    [Tooltip("Velocidad de suavizado de la rotación")]
-    public float smoothSpeed = 5f;
+    [Header("Gaze Activation Timing")]
+    public float attentionDelay = 0.4f;
 
-    void Update()
+    [Header("Idle Head Motion")]
+    public float idleWiggleSpeed = 1f;
+    public float idleWiggleAmount = 0.3f;
+
+    private Quaternion originalHeadRotation;
+    private float attentionTimer = 0f;
+    private bool isLookingAtPlayer = false;
+
+    void Start()
     {
-        if (objetivo == null) return;
+        if (headTransform != null)
+            originalHeadRotation = headTransform.localRotation;
+    }
 
-        // Calcula la dirección local al objetivo
-        Vector3 direccionLocal = transform.InverseTransformPoint(objetivo.position);
+    void LateUpdate()
+    {
+        if (playerCamera == null || headTransform == null || personaTransform == null) return;
 
-        // Calcula el ángulo en X necesario para mirar al objetivo
-        float anguloX = Mathf.Atan2(direccionLocal.y, direccionLocal.z) * Mathf.Rad2Deg;
+        Vector3 fullDirectionToPlayer = playerCamera.position - headTransform.position;
+        Vector3 flatDirection = fullDirectionToPlayer; flatDirection.y = 0;
+        if (flatDirection.sqrMagnitude < 0.01f) return;
 
-        // Obtiene la rotación actual en euler
-        Vector3 eulerActual = transform.localEulerAngles;
+        float angleToPlayer = Vector3.Angle(personaTransform.forward, flatDirection);
 
-        // Crea la rotación deseada solo en el eje X
-        Quaternion rotacionDeseada = Quaternion.Euler(anguloX, eulerActual.y, eulerActual.z);
+        if (angleToPlayer <= maxHeadTurnAngle)
+        {
+            attentionTimer += Time.deltaTime;
+            if (attentionTimer >= attentionDelay) isLookingAtPlayer = true;
+        }
+        else
+        {
+            isLookingAtPlayer = false;
+            attentionTimer = 0f;
+        }
 
-        // Suaviza la rotación usando Lerp
-        transform.localRotation = Quaternion.Lerp(transform.localRotation, rotacionDeseada, Time.deltaTime * smoothSpeed);
+        if (isLookingAtPlayer)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(fullDirectionToPlayer.normalized, Vector3.up);
+            headTransform.rotation = Quaternion.Slerp(headTransform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        }
+        else
+        {
+            Quaternion idleWiggle = Quaternion.Euler(
+                Mathf.Sin(Time.time * idleWiggleSpeed) * idleWiggleAmount,
+                0f,
+                0f
+            );
+            Quaternion targetRotation = personaTransform.rotation * originalHeadRotation * idleWiggle;
+            headTransform.rotation = Quaternion.Slerp(headTransform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        }
     }
 }
