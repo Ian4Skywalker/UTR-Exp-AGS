@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|e:\\github\\utr-exp-ags\\utr-ags\\assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|e:\\github\\utr-exp-ags\\utr-ags\\assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\ticketmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\ticketuitrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ticketuitrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|e:\\github\\utr-exp-ags\\utr-ags\\assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\grabbablesound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,20 +54,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Test.cs",
               "DocumentMoniker": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\Test.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Test.cs",
               "ToolTip": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\Test.cs",
               "RelativeToolTip": "Assets\\Scripts\\Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T19:22:05.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T19:22:05.59Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Assets\\Scripts\\TicketActivation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T16:12:07.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T16:12:07.057Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GrabbableSound.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:57:16.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:57:16.012Z"
             },
             {
               "$type": "Document",
@@ -140,8 +136,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DoorManager2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:43:17.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:43:17.833Z"
             },
             {
               "$type": "Document",
@@ -153,25 +148,24 @@
               "RelativeToolTip": "Assets\\Scripts\\FollowPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T21:54:13.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T21:54:13.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EjectionSequence.cs",
               "DocumentMoniker": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\EjectionSequence.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EjectionSequence.cs",
               "ToolTip": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\EjectionSequence.cs",
               "RelativeToolTip": "Assets\\Scripts\\EjectionSequence.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowGgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T21:50:24.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TicketMenu.cs",
               "DocumentMoniker": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\TicketMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TicketMenu.cs",
@@ -179,12 +173,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TicketMenu.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAgwBAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T21:48:22.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T21:48:22.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TicketUITrigger.cs",
               "DocumentMoniker": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\TicketUITrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TicketUITrigger.cs",
@@ -192,8 +185,7 @@
               "RelativeToolTip": "Assets\\Scripts\\TicketUITrigger.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T21:45:50.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T21:45:50.473Z"
             }
           ]
         }
