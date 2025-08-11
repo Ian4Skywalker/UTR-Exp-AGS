@@ -12,7 +12,6 @@ public class LookAtTargetXAxis : MonoBehaviour
     public float smoothSpeed = 5f;
 
     void Update()
-    void Update()
     {
         if (objetivo == null) return;
 

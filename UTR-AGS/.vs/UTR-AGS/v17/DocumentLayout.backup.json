@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\UTR VR\\Documents\\Githubs Repositories\\UTR-Exp-AGS\\UTR-AGS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UTR VR\\Documents\\Githubs Repositories\\UTR-Exp-AGS\\UTR-AGS\\Assets\\LaLo\\scripts\\LookAtPlayerXAxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\LaLo\\scripts\\LookAtPlayerXAxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|c:\\users\\utr vr\\documents\\githubs repositories\\utr-exp-ags\\utr-ags\\assets\\lalo\\scripts\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\lalo\\scripts\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LookAtPlayerXAxis.cs",
+              "DocumentMoniker": "C:\\Users\\UTR VR\\Documents\\Githubs Repositories\\UTR-Exp-AGS\\UTR-AGS\\Assets\\LaLo\\scripts\\LookAtPlayerXAxis.cs",
+              "RelativeDocumentMoniker": "Assets\\LaLo\\scripts\\LookAtPlayerXAxis.cs",
+              "ToolTip": "C:\\Users\\UTR VR\\Documents\\Githubs Repositories\\UTR-Exp-AGS\\UTR-AGS\\Assets\\LaLo\\scripts\\LookAtPlayerXAxis.cs",
+              "RelativeToolTip": "Assets\\LaLo\\scripts\\LookAtPlayerXAxis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:48:39.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "atencion.cs",
               "DocumentMoniker": "C:\\Users\\UTR VR\\Documents\\Githubs Repositories\\UTR-Exp-AGS\\UTR-AGS\\Assets\\LaLo\\scripts\\atencion.cs",
               "RelativeDocumentMoniker": "Assets\\LaLo\\scripts\\atencion.cs",
               "ToolTip": "C:\\Users\\UTR VR\\Documents\\Githubs Repositories\\UTR-Exp-AGS\\UTR-AGS\\Assets\\LaLo\\scripts\\atencion.cs",
               "RelativeToolTip": "Assets\\LaLo\\scripts\\atencion.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T17:05:18.412Z",
               "EditorCaption": ""
