@@ -18,6 +18,7 @@ MonoBehaviour:
     - Meta.XR.SDK.UsageSettings.UsesBuildingBlocks
     - Meta.XR.SDK.UsageSettings.UsesXRSimulator
     values: 010101
+
   intProperties:
     keys: []
     values: 
