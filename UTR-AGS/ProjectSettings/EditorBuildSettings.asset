@@ -12,7 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LVL.2.unity
     guid: 8be323c9fed47f640888e47825c0b553
   m_configObjects:
+
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7994770f48b10e341bd70f716c194d62, type: 2}
+
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f590249b8bd606f4db266222e89575e5, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5b00d48af34097045bb2fe66a3342073, type: 2}
