@@ -2,17 +2,32 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - photoModel
+  - mainPlayer
+  - piece
+  - spawnPosition
+  - QDSUITextSecondaryColor
+  - QDSUIIcon
+  - QDSUIToggleButton
+  - QDSUISecondaryButton
+  - QDSUIBorderlessButton
+  - QDSUIToggleBorderlessButton
+  - QDSUITooltip
+  - QDSUISharedThemeColor
+  - QDSUIToggleSwitch
+  - QDSUIAccentColor
+  - floor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - floor
   - Water
   - UI
-  - 
-  - 
+  - player
+  - nonInteractableObject
   - 
   - 
   - 
@@ -41,3 +56,5 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  m_RenderingLayers:
+  - Default
