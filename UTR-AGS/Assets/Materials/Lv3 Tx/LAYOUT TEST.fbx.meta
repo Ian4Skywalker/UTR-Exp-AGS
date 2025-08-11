@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: aa04588fc0dc2264493257c31141523e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Cajonera
+    second: {fileID: 2100000, guid: 3c49ca40aed58654daba01330666fb5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Estanteria
+    second: {fileID: 2100000, guid: 90b0e81326eda7b4b9977e40e731a13e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Imprenta-2
+    second: {fileID: 2100000, guid: ba371f7ce59bc62498449a00d1ca0fb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_PaperProp
+    second: {fileID: 2100000, guid: 34f2311a0dcf1e04e838add57a2aa495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Puerta-1
+    second: {fileID: 2100000, guid: bc9f0c1f411a0fa4f9185f3f2f27f801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Puerta-2
+    second: {fileID: 2100000, guid: 84f38b5cdbddd9e4b961e47436d2bca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_ROOM
+    second: {fileID: 2100000, guid: 909cd65591e457d488ca8c99f602264d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Ventana
+    second: {fileID: 2100000, guid: 5602445faea70df4f8007f7fdf7a0c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Vigas
+    second: {fileID: 2100000, guid: 496fe2322107b574aac66073daa1096c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_banco1
+    second: {fileID: 2100000, guid: cd7c638a7b5b12942951059b6e3a2dcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_banco2
+    second: {fileID: 2100000, guid: 625f7c7d68a0aae4e9378d9199308627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_buro
+    second: {fileID: 2100000, guid: 397f877a60cf9934695e04e9a95883a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_imprenta-1
+    second: {fileID: 2100000, guid: 3bd8fd2968855c949af785fb951b84ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_mesa
+    second: {fileID: 2100000, guid: c5674ab314afc904b84eb16837729fa2, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LV3_ROOM_Mt_Lv3_ROOM_BaseMap
+    second: {fileID: 2800000, guid: 7b8e0794137bf8b47a90e6f381b71e60, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LV3_ROOM_Mt_Lv3_Vigas_BaseMap
+    second: {fileID: 2800000, guid: bf5de6659796200418a4f2e7e79ede43, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Cajonera_BaseColor
+    second: {fileID: 2800000, guid: 13c768603f9611f4388527dc9afc4e38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Estanteria_BaseColor
+    second: {fileID: 2800000, guid: cf9170ce61e70344ca51642529bd6e22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Imprenta-2_BaseColor
+    second: {fileID: 2800000, guid: 0a9f5967493c47743ba34c3e46806399, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_PaperProp_BaseColor
+    second: {fileID: 2800000, guid: 6a9a1b8d956e532458886fa131511883, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Puerta-1_BaseColor
+    second: {fileID: 2800000, guid: 5b0fc8fe5e0887a44be82499403d810a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Puerta-1_Roughness
+    second: {fileID: 2800000, guid: f5ec272c8a12d464c8c60f9230932c29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Puerta-2_BaseColor
+    second: {fileID: 2800000, guid: dfef6710474a8774eb5d22c44963d491, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Puerta-2_Roughness
+    second: {fileID: 2800000, guid: f784f7abb84d6db4f94a71dca6ab4069, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_Ventana_BaseColor
+    second: {fileID: 2800000, guid: b9048303b9a12d248a2d6cf6f6a51896, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_banco1_BaseColor
+    second: {fileID: 2800000, guid: fbe38a9317016fc459b59590d82335e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_banco2_BaseColor
+    second: {fileID: 2800000, guid: 78a8a61f977658e429d29439b916c4be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_buro_BaseColor
+    second: {fileID: 2800000, guid: 99ac6efcd33c45b4f8f158d70eb23f5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_imprenta-1_BaseColor
+    second: {fileID: 2800000, guid: 20154516aa7e15340b67a72f51d0311b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mt_Lv3_mesa_BaseColor
+    second: {fileID: 2800000, guid: 04a00a2f5ba1a4b4597fbe77074bc6af, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

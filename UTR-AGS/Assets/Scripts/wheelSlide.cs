@@ -17,7 +17,9 @@ public class wheelSlide : MonoBehaviour
     [SerializeField] int checkPoints = 0;
     changeState changeStateScript;
     AudioSource audioSource, chageAudioSource, BGMAudioSource, paperSound;
-
+    [SerializeField]GameObject[] doors;
+    Transform[] doorRotation = new Transform[2];
+    float timer = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -25,7 +27,7 @@ public class wheelSlide : MonoBehaviour
     }
     void Start()
     {
-         changeStateScript = GameObject.Find("ObjectDetector").GetComponent<changeState>();
+        changeStateScript = GameObject.Find("ObjectDetector").GetComponent<changeState>();
         test = GameObject.Find("wheelPosition");
         wheelRigidbody = GetComponent<Rigidbody>();
         wheelCollider = GetComponent<BoxCollider>();
@@ -35,6 +37,9 @@ public class wheelSlide : MonoBehaviour
         chageAudioSource = GameObject.Find("ChangeBGM").GetComponent<AudioSource>();
         BGMAudioSource = GameObject.Find("BGM Player").GetComponent<AudioSource>();
         
+        doorRotation[0] = doors[0].GetComponent<Transform>();
+        doorRotation[1] = doors[1].GetComponent<Transform>();
+      
     }
     void FixedUpdate()
     {
@@ -44,6 +49,7 @@ public class wheelSlide : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         isImageComplete = changeStateScript.imageComplete;
 
         if (playSoundWheel)
@@ -269,6 +275,18 @@ public class wheelSlide : MonoBehaviour
         Application.Quit();
 #endif
     }
+    void OpenDoors()
+    {
+        if (timer<=2f) {
+            doorRotation[0].eulerAngles = new Vector3(doorRotation[0].eulerAngles.x, doorRotation[0].eulerAngles.y, doorRotation[0].eulerAngles.z + 0.5f);
+
+            doorRotation[1].eulerAngles = new Vector3(doorRotation[1].eulerAngles.x, doorRotation[1].eulerAngles.y, doorRotation[1].eulerAngles.z + 0.5f);
+            timer+= Time.deltaTime;
+        }
+        
+        
+    }
+
     void moveImage()
     {
         if (time <= 3.2f)
@@ -284,7 +302,7 @@ public class wheelSlide : MonoBehaviour
         else
         {
             playPaperSound = false;
-            Invoke("EndOfGame", 2f);
+            Invoke("OpenDoors", 2f);
             
         }
         
