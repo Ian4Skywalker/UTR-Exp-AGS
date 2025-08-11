@@ -89,14 +89,17 @@ public class listManager : MonoBehaviour
         //End the game
         if (endPasarela==true)
         {
-            #if UNITY_EDITOR
-                        EditorApplication.ExitPlaymode();
-            #else
-                        Application.Quit();
-            #endif
+            Invoke("endGame", 1.5f);
         }
 
        
     }
-    
+    void endGame()
+    {
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
+                        Application.Quit();
+#endif
+    }
 }

@@ -20,4 +20,8 @@ public class destroyObject : MonoBehaviour
             
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
 }

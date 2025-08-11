@@ -5,7 +5,7 @@ public class playerManagerLevel4 : MonoBehaviour
 {
     cameraViewManager cameraView;
     listManager list;
-    [SerializeField]bool canTakePhoto=true;
+    [SerializeField]bool canTakePhoto=false;
     float speed = 0f;
     [SerializeField] Image panel;
     public float timer = 0f;
@@ -63,7 +63,7 @@ public class playerManagerLevel4 : MonoBehaviour
                 allowToPlay = true;
 
                 //set panel alfa to 100% 
-                panel.color = new Color(panel.color.r, panel.color.b, panel.color.g, 255f);
+                panel.color = new Color(panel.color.r, panel.color.b, panel.color.g, 50f);
                 
 
                 if (cameraView.objectInView != null)

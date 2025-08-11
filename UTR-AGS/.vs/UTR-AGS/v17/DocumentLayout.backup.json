@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Grabbable.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:45:47.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OVRConfigurationTaskUpdaterSummary.cs",
               "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|c:\\git\\utr-exp-ags\\utr-ags\\assets\\scripts\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|c:\\git\\utr-exp-ags\\utr-ags\\assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|c:\\git\\utr-exp-ags\\utr-ags\\assets\\scripts\\destroyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|c:\\git\\utr-exp-ags\\utr-ags\\assets\\scripts\\statuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.core@8e7305f79034\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,45 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "listManager.cs",
-              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\listManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\listManager.cs",
-              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\listManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\listManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "destroyObject.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\destroyObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\destroyObject.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\destroyObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\destroyObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T16:46:05.088Z",
+              "WhenOpened": "2025-07-30T18:12:13.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Grabbable.cs",
-              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
-              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAIEAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\test.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\test.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\test.cs",
+              "RelativeToolTip": "Assets\\Scripts\\test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T16:45:47.939Z",
+              "WhenOpened": "2025-07-30T16:25:49.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "statueManager.cs",
-              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\statueManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\statueManager.cs",
-              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\statueManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\statueManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
+              "Title": "Grabbable.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@e52ba4dfd787\\Runtime\\Scripts\\Interaction\\Grabbable\\Grabbable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T16:44:46.252Z",
+              "WhenOpened": "2025-07-10T16:45:47.939Z",
               "EditorCaption": ""
             },
             {
