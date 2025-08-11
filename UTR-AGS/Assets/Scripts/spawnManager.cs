@@ -7,10 +7,12 @@ public class spawnManager : MonoBehaviour
 
     GameObject[] spawnPositions;
     GameObject[] pieces;
+    public GameObject doors;
     int randomNumber;
     public int statueCounter=0;
     private void Awake()
     {
+        
         spawnPositions = GameObject.FindGameObjectsWithTag("spawnPosition");
         pieces = GameObject.FindGameObjectsWithTag("piece");
         for (int i = 0; i < pieces.Length; i++)
@@ -34,18 +36,25 @@ public class spawnManager : MonoBehaviour
     }
     void Start()
     {
-        
+        doors.SetActive(false);
     }
-
+    void endGame()
+    {
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
+                        Application.Quit();
+#endif
+    }
+    void openDoors()
+    {
+        doors.SetActive (true);
+    }
     // Update is called once per frame
     void Update()
     {
         if (statueCounter >= 4) {
-#if UNITY_EDITOR
-            EditorApplication.ExitPlaymode();
-#else
-                        Application.Quit();
-#endif
+            openDoors();
         }
 
     }
