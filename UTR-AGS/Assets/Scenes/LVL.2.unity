@@ -1315,7 +1315,7 @@ PrefabInstance:
     - target: {fileID: 13700000, guid: 7aea2d469d67de44f9dd680a5088c739, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 31ba82c08f758894bb913e52b646c5c5, type: 2}
+      objectReference: {fileID: 2100000, guid: 3bfe0b4f9e7bbd240a8133b2345c8f9b, type: 2}
     - target: {fileID: 13700002, guid: 7aea2d469d67de44f9dd680a5088c739, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -6052,7 +6052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followPlayer: {fileID: 0}
-  windowExitPoint: {fileID: 623256915}
+  windowExitPoint: {fileID: 797415690}
   ejectionForce: 5
   rotationSpeed: 90
   moveSpeed: 4

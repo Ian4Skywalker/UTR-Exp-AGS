@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|e:\\github\\utr-exp-ags\\utr-ags\\assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -158,7 +158,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EjectionSequence.cs",
               "ToolTip": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\EjectionSequence.cs",
               "RelativeToolTip": "Assets\\Scripts\\EjectionSequence.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowE8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowGgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T21:50:24.161Z",
               "EditorCaption": ""
