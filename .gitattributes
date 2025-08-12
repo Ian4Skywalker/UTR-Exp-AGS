@@ -1,1 +1,4 @@
 * text=auto
+*.meta merge=unitymeta
+*.prefab merge=unityyaml
+*.unity merge=unityyaml
