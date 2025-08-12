@@ -4,6 +4,7 @@
   "WorkspaceRootPath": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|e:\\github\\utr-exp-ags\\utr-ags\\assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejectionsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,6 +35,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\ticketactivation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ticketactivation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\statuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|c:\\git\\utr-exp-ags\\utr-ags\\assets\\scripts\\cameraviewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraviewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\piecemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\piecemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\modelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\modelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|C:\\git\\UTR-Exp-AGS\\UTR-AGS\\assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D0D5F2-5E5F-830A-5AE0-0888DA16820B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\PhysicsLobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,6 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
 
           "SelectedChildIndex": 8,
           "Children": [
@@ -69,6 +103,111 @@
               "RelativeToolTip": "Assets\\Scripts\\Test.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T19:22:05.59Z"
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cameraViewManager.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\cameraViewManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\cameraViewManager.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\cameraViewManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\cameraViewManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:51:46.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "statueManager.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\statueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\statueManager.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\statueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\statueManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:50:18.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "modelManager.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\modelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\modelManager.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\modelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\modelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:50:11.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pieceManager.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\pieceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\pieceManager.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\pieceManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\pieceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:50:01.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "physics.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\physics.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\physics.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\physics.cs",
+              "RelativeToolTip": "Assets\\Scripts\\physics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:49:56.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "playerManager.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\playerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\playerManager.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\playerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\playerManager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:49:39.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "spawnManager.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\spawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\spawnManager.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\spawnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\spawnManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:49:10.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\test.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\test.cs",
+              "ToolTip": "C:\\git\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\test.cs",
+              "RelativeToolTip": "Assets\\Scripts\\test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:48:59.95Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
@@ -79,7 +218,11 @@
               "ToolTip": "E:\\GitHub\\UTR-Exp-AGS\\UTR-AGS\\Assets\\Scripts\\PhysicsLobby.cs",
               "RelativeToolTip": "Assets\\Scripts\\PhysicsLobby.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2025-07-15T17:28:25.465Z"
+=======
+              "WhenOpened": "2025-08-11T16:42:05.623Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
