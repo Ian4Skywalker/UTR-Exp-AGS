@@ -6,11 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+
     path: Assets/Scenes/LOBBY.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/LVL.2.unity
     guid: 8be323c9fed47f640888e47825c0b553
+
   m_configObjects:
 
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7994770f48b10e341bd70f716c194d62, type: 2}
